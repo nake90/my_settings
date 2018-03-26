@@ -1,0 +1,8 @@
+[core]
+	editor = vim
+[alias]
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	cm = commit -m
+	ca = commit -a
+	difs = diff --staged
